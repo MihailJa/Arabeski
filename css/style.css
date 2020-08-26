@@ -1,0 +1,241 @@
+
+body, html{
+  height: 100%;
+   font-family: 'Oswald', sans-serif;
+
+}
+p{
+	font-family: 'Noto Sans', sans-serif;
+	
+}
+h3{
+	Font-size: 24px;
+}
+h2, h3{
+	text-align: center;
+	 
+}
+.navbar-brand{
+	font-family: 'Playfair Display', serif;
+	font-size:28px;
+}
+.bg-dark
+{
+     background-color: #10253a!important;
+}
+.currentSvg{
+	fill:#DAA520!important;	
+}
+
+.btn-primary {
+	color: #0C202C;
+	background-color:#DAA520!important;
+	border-color: #d8c696!important;
+	box-shadow:0 0 10px #d8c696;
+}
+.btn-primary:hover {
+	color: #0C202C;
+	background-color:#DAA500!important;
+	border-color: #d8c696!important;
+	box-shadow:0px 0px 15px #d8c696;
+}
+.btn-secondary{
+	color: #0C202C;
+	background-color:#DAA520!important;
+	border-color: #d8c696!important;
+	
+}
+.jumbotron
+{
+	min-height: 500px;
+      z-index: 1000;
+      height: calc(100vh );
+	  background-image: url(../img/piano20.jpg);	  
+	background-repeat: no-repeat;	
+	background-size: cover;
+	color: white;	 
+}
+.jumbotron h1{
+	background: rgba(0,0,0,.05);
+	
+}
+.jumbotron p{
+	background: rgba(0,0,0,.05);
+	
+}
+
+.button-fixed
+{
+position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 23%;
+   vertical-align: middle;
+    overflow: hidden;
+    
+    cursor: pointer;
+    border-radius: 50%;
+width: 60px;
+height:60px;
+color: #0C202C;
+background-color: #DAA520;
+	
+		
+		
+	box-shadow: 2px 2px 3px #d8c696;
+	 
+	
+}
+.material-icons
+{
+	
+	text-align: center;
+}
+
+
+.fixed-action-btn{
+	 display: flex;
+	 flex-direction: row;
+	position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 998;
+    margin-bottom: 0;
+    overflow: hidden;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;   
+    -webkit-box-align: end;
+  
+    align-items: flex-end;
+    padding: 15px 15px 15px 15px;
+   
+}
+
+
+.material-icons{
+	
+	font-size: 32px;
+}
+
+.item-responsive:before {
+  display: block; /* отображать элемент как блок */
+  content: ""; /* содержимое псевдоэлемента */
+  width: 100%;
+  height:320px; 
+   /* ширина элемента */
+}
+.conteiner-content
+{
+	
+	width:100%;
+	
+	
+}
+.item-16by9 {
+  padding-top: 90%; /* (9:16)*100% */
+}
+.item-responsive>.content {
+  position: absolute; /* абсолютное положение элемент */
+  /* положение элемента */
+  top: 0;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  background-color: #fff;
+}
+.photo-teacher
+{	display: block;
+	 width:150px;
+	height:150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.container-img
+{
+	width:200px;
+	height:200px;
+	
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+.img1{
+	background-image: url(../img/1.jpg);
+	
+}
+.img2{
+	background-image: url(../img/2.jpg);
+	
+}
+.img3{
+	background-image: url(../img/3.jpg);
+}
+.img4{
+	background-image: url(../img/4.jpg);
+}
+
+.carousel-control-prev,.carousel-control-next
+{
+	background-color:#aaa;
+	height:50px;	
+	border-radius: 8%;
+	margin: auto 7px;
+}
+.c2{
+		background-color: #aaa;
+		width:40px;
+	height:40px;	
+	border-radius: 8%;
+	margin: auto 7px;
+	
+}
+
+.socialBlock{
+	display:flex;
+	justify-content:center;
+}
+ .footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.socialBlock a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .5s ease;
+}
+
+.socialBlock a:hover {
+  color: #ccc;
+}
+
+.name-pupil{
+	text-align: left;
+	font-weight:bold;	
+}
+.card-border-none{
+	border: none;
+	word-wrap: normal;
+	
+	
+}
+.card-body p{
+	margin-bottom:2rem;
+}
+.m-height{
+	min-height:5rem;
+	padding-top: 1rem;
+	margin-bottom:0;
+	
+}
+
+.item-4by3 {
+  padding-top: 75%; /* (3:4)*100% */
+}
+.item-2by1 {
+  padding-top: 50%; /* (1:2)*100% */
+}
+.item-1by1 {
+  padding-top: 100%; /* (1:1)*100% */
+}
